@@ -1,16 +1,16 @@
-# Data-Cleaning-Project
+# Getting and Cleaning Data Week 4 Project
 
-#the scrit works directly as asked
-# that is to say, first I download the file, then unzip it
-# then assign the path for the files to be read
-# after that we need to read the files ( asign a variable to them)
-# to be sure that the files were readed correctly, we check then ( str (....))
-# then we need to determine the best strategy in order to merged the files
-# in this case is first to unify the layout, that is to say, bind the files test + train
-# after that we are in condition to generate one unifty file.
+The repository contains R code, codebook, and the FinalTidyData text file for the peer graded assignment.
 
-# then we do as asked, generate the report for st and mean
+## Files:
+CodeBook.md describes the how to use all this, variables, the data, and any transformations or work that was performed to clean up the data.
 
-# The next step asked the activity names in the data set
+run_analysis.R contains all the code to perform the analysis described the below   5 steps:
 
-#At the end we generate the final file and we uploaded to coursera.
+  1. Merges the training and the test sets to create one data set.
+  2. Extracts only the measurements on the mean and standard deviation for each measurement.
+  3. Uses descriptive activity names to name the activities in the data set
+  4. Appropriately labels the data set with descriptive variable names.
+  5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+Finaltidydataset.txt is the Dataset created of the final step
